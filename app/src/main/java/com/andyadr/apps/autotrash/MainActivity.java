@@ -125,7 +125,7 @@ public class MainActivity extends AppCompatActivity  {
         }
         @Override
         protected Void doInBackground(Void... args) {
-            String url ="https://platform.antares.id:8443/~/antares-cse/antares-id/Adrian_IOT/TrashBot";
+            String url ="https://platform.antares.id:8443/~/antares-cse/antares-id/{your-application-name}/{your-device-name}";
             RequestQueue requestQueue = Volley.newRequestQueue(MainActivity.this);
             JsonObject con = new JsonObject();
             con.addProperty("con","{\"status\": "+statSampah+"}");
