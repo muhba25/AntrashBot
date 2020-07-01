@@ -32,6 +32,9 @@ public class ApiClient {
 
 				RequestMe = RequestMe.newBuilder()
 						.url(httpUrl)
+						.addHeader("X-M2M-Origin", "5412378e242f5814:29a48f99807600d4")
+						.addHeader("Content-Type", "application/json;ty=4")
+						.addHeader("Accept", "application/json")
 						.build();
 
 				return chain.proceed(RequestMe);
