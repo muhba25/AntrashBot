@@ -25,3 +25,4 @@ public interface ApiEndpoints {
 	Call<Response> postSampah(@Body RequestBody body);
 
 }
+ 
