@@ -28,7 +28,7 @@ public class AsyncT extends AsyncTask<String,Void,Void> {
 
                 JSONObject con = new JSONObject();
                 con.put("con", "{\\\"status\\\": 0}");
-                JSONObject m2mcin = new JSONObject();
+                JSONObject m2mcin = new JSONObject(); 
                 m2mcin.put("m2m:cin", con);
 
                 DataOutputStream wr = new DataOutputStream(httpURLConnection.getOutputStream());
