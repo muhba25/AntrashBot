@@ -7,3 +7,5 @@ changes as the following :
 in [gradle.properties] : BASE_URL_API 
 
 in [MainActivity.java] : String url
+
+and look [ESP8266-AnTrashbot-scripts.ino]
